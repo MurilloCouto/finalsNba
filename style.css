@@ -1,0 +1,120 @@
+*{
+    background-color: #202020;
+    margin: 0;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #1d1d1d;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    border-bottom: solid 1px white;
+}
+
+#finalsLogo {
+    width: 14rem;
+    height: 4rem;
+    margin-left: 2%;
+    background-color: #1d1d1d;
+}
+
+#nbaLogo {
+    width: 8rem;
+    height: 4rem;
+    margin-left: 73%;
+    background-color: #1d1d1d;
+    text-align: end;
+}
+
+#content {
+    display: flex;
+}
+
+h1 {
+    margin: 5%;
+    font-size: xx-large;
+    color: rgb(19, 19, 203);
+}
+
+h2 {
+    color: rgb(0, 255, 0);
+    margin-left: 12%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#text, #countdown {
+    width: 50%;
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+#video {
+    margin-top: 4%;
+}
+
+.gridContainer {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2%;
+    padding: 1%;
+}
+
+
+.imgGame {
+    width: 100%;
+    height: 100%;
+}
+
+.imgGame:hover {
+    transform: translateY(-3px);
+    box-shadow: 2px 2px 2px #45ff01;
+    cursor: pointer;
+}
+
+.selectedCard {
+    box-shadow: 4px 4px 4px #45ff01;
+}
+
+#form {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+input {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 26%;
+    padding: 1%;
+    color: black;
+}
+
+#name {
+    margin-left: 1%;
+}
+
+#email {
+    margin-left: 2%;
+}
+
+button {
+    margin-left: 10%;
+    background-color: whitesmoke;
+    padding: 1% 3% 1% 3% ;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+button:hover {
+    box-shadow: 2px 2px 2px #45ff01;
+}
