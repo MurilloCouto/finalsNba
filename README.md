@@ -19,7 +19,7 @@ NBA Finals themed website for the 2021-2022 season between Golden State Warriors
 <hr>
 
 ### Is online? 📡
-YES! Just [click here](link netlify) to view the website that is hosted on Netlify servers.
+YES! Just [click here](https://nbafinals.netlify.app/) to view the website that is hosted on Netlify servers.
 <hr>
 
 by Murillo Couto<br>
