@@ -56,3 +56,14 @@ function Select(selector){
     var element = document.querySelector(selector);
     element.classList.toggle('selectedCard')
 }
+
+function Destacar2(){
+    var destaque2 = document.getElementsByClassName('imgRoupas');
+    destaque2 = Array.from(destaque2);
+
+    for(let i = 0; i < destaque2.length; i++){
+        destaque2[i].classList.toggle('destacarRoupas');
+    }
+}
+
+setInterval(Destacar2, 1500);
