@@ -124,3 +124,41 @@ button:hover {
 .destacarCard {
     box-shadow: 4px 4px 4px #45ff01;
 }
+
+#shop{
+    background-color: #212121;
+}
+
+#h1Shop{
+    text-align: center;
+    padding-top: 5%;
+    color: whitesmoke;
+    background-color: #212121;
+}
+
+.shopCarrossel{
+    background-color: #212121;
+    padding: 1%;
+    margin-left: 6%;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.divRoupas{
+    background-color: #212121;
+}
+
+.imgRoupas{
+    background-color: #212121;
+    width: 16em;
+    height: 16em;
+    cursor: pointer;
+}
+
+.imgRoupas:hover{
+    box-shadow: 10px 10px 10px #bebebe;
+}
+
+.destacarRoupas{
+    box-shadow: 10px 10px 10px #757575;
+}

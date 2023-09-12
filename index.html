@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Menu superior -->
+
     <header>
         <img src="imagens/finalsLogo.png" id="finalsLogo" alt="finalsLogo">
         <img src="imagens/nbaLogo.png" id="nbaLogo" alt="nbaLogo">
     </header>
+
+    <!-- Texto e video -->
+
     <div id="content">
         <section id="text">
             <h1> COME SEE HISTORY BEING WRITTEN </h1>
@@ -55,6 +61,8 @@
 
     <h2> Choose one game to Free Bet: </h2>
 
+    <!-- Card games -->
+
     <section class="gridContainer">
         <div class="gridItem">
             <img class="imgGame" id="game1" onmouseenter="Play()" onmouseleave="Stop()" onclick="Select('#game1')" src="imagens/game1.png" alt="game1">
@@ -79,6 +87,8 @@
         </div>
     </section> 
 
+    <!-- Formulário -->
+
     <section id="form">
         <form action="https://api.sheetmonkey.io/form/szzxvMQu8ko5sXcjZDeDfj" method="post">
             <label id="name">Name: <input type="text" name="Name" required /></label>
@@ -86,6 +96,30 @@
             <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time"/>
             <button type="submit"> Enviar </button>
         </form>
+    </section>
+
+    <!-- Market place -->
+
+    <section id="shop">
+        <h1 id="h1Shop"> NBA SHOP </h1>
+        <div id="camisetasCarrossel" class="shopCarrossel">
+            <div class="divRoupas">
+                <img src="imagens/warriors1.png" alt="camiseta" class="imgRoupas" id="roupa1" onclick="Select('#roupa1')">
+            </div>
+            <div class="divRoupas">
+                <img src="imagens/celtics1.png" alt="camiseta" class="imgRoupas" id="roupa2" onclick="Select('#roupa2')">
+            </div>
+            <div class="divRoupas">
+                <img src="imagens/warriors2.png" alt="camiseta" class="imgRoupas" id="roupa3" onclick="Select('#roupa3')">
+            </div>
+            <div class="divRoupas">
+                <img src="imagens/celtics2.png" alt="camiseta" class="imgRoupas" id="roupa4" onclick="Select('#roupa4')">
+            </div>
+        </div>
+
+        <div id="diversosCarrossel" class="shopCarrossel">
+
+        </div>
     </section>
 
     <script src="index.js"></script>
