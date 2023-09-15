@@ -1,4 +1,4 @@
-*{
+/* *{
     background-color: #757575;
     margin: 0;
     color: whitesmoke;
@@ -108,15 +108,6 @@ input {
     margin-left: 2%;
 }
 
-button {
-    margin-left: 10%;
-    background-color: whitesmoke;
-    padding: 1% 3% 1% 3% ;
-    color: black;
-    font-weight: 600;
-    border-radius: 5px;
-}
-
 button:hover {
     box-shadow: 2px 2px 2px #45ff01;
 }
@@ -161,4 +152,109 @@ button:hover {
 
 .destacarRoupas{
     box-shadow: 10px 10px 10px #757575;
+} */
+
+
+#finalsLogo {
+    width: 14rem;
+    height: 4rem;
+    margin-left: 2%;
+    margin-top: 3px;
+}
+
+#menuText {
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+#videoNba {
+    border-radius: 5px;
+    margin-right: 2%;
+}
+
+
+#bet {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    margin: 0;
+}
+
+.imgGame {
+    margin-bottom: 2%;
+    width: 90%;
+    height: 90%;
+}
+
+.imgGame:hover {
+    box-shadow: 4px 4px 4px #45ff01;
+    transform: translateY(-8px);
+}
+
+.gridContainer {
+    padding-bottom: 4%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.gridContainer2 {
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2%;
+    padding: 1%;
+}
+
+
+#name {
+    font-size: large;
+}
+
+#email {
+    font-size: large;
+}
+
+.selectedCard {
+    box-shadow: 4px 4px 4px #45ff01;
+}
+
+.destacarCard {
+    box-shadow: 4px 4px 4px #45ff01;
+}
+
+#shop {
+    padding-top: 2%;
+}
+
+.destacarRoupas{
+    box-shadow: 5px 5px 5px #757575;
+}
+
+section {
+    margin-bottom: 0px;
+}
+
+#h1Shop{
+    text-align: center;
+    padding-top: 5%;
+    color: whitesmoke;
+    background-color: #212121;
+}
+
+.shopCarrossel{
+    padding: 1%;
+    margin-left: 6%;
+    margin-top: 2%;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+.imgRoupas{
+    width: 16em;
+    height: 16em;
+    cursor: pointer;
+}
+
+.imgRoupas:hover{
+    box-shadow: 10px 10px 10px #bebebe;
 }

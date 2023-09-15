@@ -41,16 +41,6 @@ function Stop(){
     music.pause();
 }
 
-function Destacar(){
-    var destaque = document.getElementsByClassName('imgGame');
-    destaque = Array.from(destaque);
-
-    for(let i = 0; i < destaque.length; i++){
-        destaque[i].classList.toggle('destacarCard');
-    }
-}
-
-setInterval(Destacar, 1500);
 
 function Select(selector){
     var element = document.querySelector(selector);
@@ -67,3 +57,4 @@ function Destacar2(){
 }
 
 setInterval(Destacar2, 1500);
+
