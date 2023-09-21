@@ -71,6 +71,7 @@
       </div>
 
     <!-- Card games -->
+
     <h4 id="bet" class="center-align grey darken-4 grey-text text-grey lighten-1 col s6">CHOOSE ONE GAME TO FREE BET</h4>
     <section class="gridContainer grey darken-4 row">
         <div class="gridContainer2 col s8">
@@ -96,11 +97,13 @@
                 <img class="imgGame" id="game7" onmouseenter="Play()" onmouseleave="Stop()" onclick="Select('#game7')" src="imagens/game7.png" alt="game7">
             </div>
         </div>
+        
         <!-- Formulário -->
+
         <div class="col s4">
             <form action="https://api.sheetmonkey.io/form/szzxvMQu8ko5sXcjZDeDfj" method="post">
-                <label id="name">Name: <input type="text" name="Name" required /></label>
-                <label id="email">Email: <input type="email" name="Email" required /></label>
+                <label id="name">Name: <input class="card-panel white" type="text" name="Name" required /></label>
+                <label id="email">Email: <input class="card-panel white" type="email" name="Email" required /></label>
                 <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time"/>
                 <button class="btn waves-effect waves-light" type="submit" name="action" >Enviar</button>
             </form>

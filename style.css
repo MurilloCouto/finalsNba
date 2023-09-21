@@ -6,7 +6,7 @@
 }
 
 #menuText {
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     margin: 0;
 }
 
@@ -64,6 +64,10 @@
     box-shadow: 4px 4px 4px #45ff01;
 }
 
+input {
+    border-radius: 10px;
+}
+
 #shop {
     padding-top: 2%;
 }
@@ -72,15 +76,10 @@
     box-shadow: 5px 5px 5px #757575;
 }
 
-section {
-    margin-bottom: 0px;
-}
-
 #h1Shop{
     text-align: center;
     padding-top: 5%;
     color: whitesmoke;
-    background-color: #212121;
 }
 
 .shopCarrossel{

@@ -56,5 +56,14 @@ function Destacar2(){
     }
 }
 
-setInterval(Destacar2, 1500);
+function getProducts(){
+    fetch('http://localhost:3000/produtos').then( (response) => response.json()).then( (dados) => {
+        console.log(dados);
 
+     
+    });
+
+}
+
+getProducts();
+setInterval(Destacar2, 1500);   
