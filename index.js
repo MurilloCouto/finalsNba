@@ -59,7 +59,16 @@ function Destacar2(){
 function getProducts(){
     fetch('http://localhost:3000/produtos').then( (response) => response.json()).then( (dados) => {
         console.log(dados);
+        var list = document.getElementById("camisetasCarrossel");
+        for(let i = 0; i < dados.length; i++){
 
+        list.innerHTML = list.innerHTML + `<div class="divRoupas">
+                <img src=${dados[i].urlImagem} alt="camiseta" class="imgRoupas hoverable" id="roupa${i}" onclick="Select('#roupa${i}')">
+                <p> ${dados[i].preco} </p>
+                <p> ${dados[i].nomeProduto} </p>
+            </div>`
+        
+    }
      
     });
 
